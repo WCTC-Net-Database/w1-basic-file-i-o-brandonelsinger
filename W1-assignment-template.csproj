@@ -8,4 +8,24 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Include="bin\Debug\net6.0\W1-assignment-template.deps.json" />
+    <Content Include="bin\Debug\net6.0\W1-assignment-template.runtimeconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0\input.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="bin\Debug\net6.0\W1-assignment-template.dll" />
+    <None Include="bin\Debug\net6.0\W1-assignment-template.exe" />
+    <None Include="bin\Debug\net6.0\W1-assignment-template.pdb" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="input.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
